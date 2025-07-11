@@ -21,7 +21,7 @@ It is a fully managed GraphQL service that allows you to build flexible APIs to 
 It is a high-performance, serverless, and fully managed NoSQL database. DynamoDB offers virtually unlimited scalability, low latency, and high availability, making it ideal for high-performance applications.
 
 #### **1.3. Amazon Cognito**
-![ConnectPrivate](/images/Cognito.png) 
+![ConnectPrivate](/static/images/Cognito.png) 
 It is a powerful and scalable User Identity Management service. Cognito helps you easily integrate secure user registration, login, and account management features into your web and mobile applications without having to build your own authentication system.
 
 #### **1.4. AWS Amplify Hosting**
