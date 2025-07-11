@@ -13,7 +13,7 @@ pre : " <b> 1. </b> "
 Để xây dựng các ứng dụng web thời gian thực mạnh mẽ, có khả năng mở rộng và bảo mật, chúng ta sẽ tận dụng sức mạnh của các dịch vụ cốt lõi trên nền tảng điện toán đám mây của Amazon Web Services (AWS). Sau đây là các dịch vụ chính mà chúng ta sẽ sử dụng trong workshop này:
 
 #### **1.1. AWS AppSync**
-![AWS AppSync Diagram](../../docs/images/AWSAppSync.png)
+![AWS AppSync Diagram](../../static/images/AWSAppSync.png)
 Là một dịch vụ GraphQL được quản lý hoàn toàn (fully managed), cho phép bạn xây dựng các API linh hoạt để truy vấn, thay đổi và đồng bộ hóa dữ liệu. AppSync tích hợp sẵn khả năng thời gian thực (real-time) thông qua GraphQL Subscriptions và WebSockets, cũng như quản lý bảo mật và mở rộng.
 
 #### **1.2. Amazon DynamoDB**
