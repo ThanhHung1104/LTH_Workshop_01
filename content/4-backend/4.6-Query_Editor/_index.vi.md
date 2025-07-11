@@ -11,7 +11,7 @@ pre : " <b> 4.6. </b> "
 Đây là bước cực kỳ quan trọng để bạn xác nhận rằng backend của ứng dụng chat đã hoạt động đúng cách trước khi chuyển sang phần frontend. Bạn sẽ sử dụng Query Editor tích hợp sẵn trong AppSync Console để kiểm thử các hoạt động GraphQL.
 
 1.  Ở thanh điều hướng bên trái của **AppSync Console**, chọn **Queries** (Truy vấn).
-    ![ConnectPrivate](/images/be_4.6_1.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.6_1.png)
 
 2.  Bạn sẽ thấy một trình soạn thảo GraphQL tích hợp. Đây là nơi bạn sẽ nhập và chạy các Query, Mutation và Subscription.
 
@@ -33,7 +33,7 @@ Bạn sẽ gửi một tin nhắn mới để kiểm tra chức năng ghi dữ l
     }
     ```
 3.  Bạn sẽ thấy kết quả trả về trong cửa sổ bên phải, bao gồm `id` của tin nhắn, tên người gửi, nội dung và thời gian gửi. Điều này xác nhận Mutation đã thành công.
-    ![ConnectPrivate](/images/be_4.6_2.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.6_2.png)
 
 #### **Bước 4.6.2: Thử nghiệm Subscription (`onCreateMessage`)**
 
@@ -53,12 +53,12 @@ Bạn sẽ đăng ký lắng nghe tin nhắn mới theo thời gian thực.
     }
     ```
 3.  Khi bạn chạy Subscription này, nó sẽ hiển thị **"Listening..."** cho thấy nó đang chờ tin nhắn mới.
-    ![ConnectPrivate](/images/be_4.6_3.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.6_3.png)
 4.  **Quay lại tab trình duyệt ban đầu** (hoặc mở một tab thứ ba khác).
 5.  **Chạy lại Mutation `createMessage`** với nội dung khác (ví dụ: `content: "This is a real-time message!"`).
-    ![ConnectPrivate](/images/be_4.6_4.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.6_4.png)
 6.  **Quan sát tab có Subscription.** Bạn sẽ thấy tin nhắn mới xuất hiện ngay lập tức mà không cần làm mới trang! Điều này xác nhận kết nối WebSocket và chức năng thời gian thực đang hoạt động.
-    ![ConnectPrivate](/images/be_4.6_5.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.6_5.png)
 
 #### **Bước 4.6.3: Thử nghiệm Query (`listMessages`)**
 

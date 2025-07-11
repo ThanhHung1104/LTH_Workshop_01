@@ -11,7 +11,7 @@ pre : " <b> 4.5. </b> "
 Resolvers are source code functions (in this case, JavaScript) that map GraphQL operations (Query, Mutation, Subscription) to operations on backend data sources (like DynamoDB). They allow your AppSync API to know how to perform operations on your data.
 
 1.  In the left navigation pane of **AppSync Console**, select **Schema**.
-    ![ConnectPrivate](/images/be_4.5_1.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_1.png)
 
 2.  Scroll down to the **Resolvers** section. You will see a list of Query, Mutation, and Subscription operations automatically generated from your Schema.
 
@@ -21,15 +21,15 @@ This resolver will allow you to retrieve a list of all messages from the DynamoD
 
 1.  Find the line **`listMessages`** under the **Query** section.
 2.  Click the **Attach** button next to it.
-    ![ConnectPrivate](/images/be_4.5_2.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_2.png)
 3.  **Configure Resolver:**
     * **Data source name:** Select **`RealTimeChatDataSource`**.
     * **Resolver runtime:** Make sure **AppSync JavaScript (APPSYNC_JS)** is selected.
     * Scroll down to the bottom of the page and click the **Create** button.
-    ![ConnectPrivate](/images/be_4.5_3.png)
-    ![ConnectPrivate](/images/be_4.5_4.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_3.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_4.png)
 4.  You will be redirected to the Resolver code editor page.
-    ![ConnectPrivate](/images/be_4.5_5.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_5.png)
 5.  **Paste the following JavaScript code** into the Resolver code editor, replacing the existing content:
     ```javascript
     /**
@@ -56,7 +56,7 @@ This resolver will allow you to retrieve a list of all messages from the DynamoD
     }
     ```
 6.  Click the **Save** button in the top right corner to save the Resolver.
-    ![ConnectPrivate](/images/be_4.5_6.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_6.png)
 
 #### **Step 4.5.2: Create Resolver for `Mutation.createMessage`**
 
@@ -64,14 +64,14 @@ This resolver will allow you to create a new message and save it to the DynamoDB
 
 1.  Find the line **`createMessage`** under the **Mutation** section.
 2.  Click the **Attach** button next to it.
-    ![ConnectPrivate](/images/be_4.5_7.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_7.png)
 3.  **Configure Resolver:**
     * **Data source name:** Select **`RealTimeChatDataSource`**.
     * **Resolver runtime:** Make sure **AppSync JavaScript (APPSYNC_JS)** is selected.
     * Click the **Create** button.
-    ![ConnectPrivate](/images/be_4.5_8.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_8.png)
 4.  You will be redirected to the Resolver code editor page.
-    ![ConnectPrivate](/images/be_4.5_9.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_9.png)
 5.  **Paste the following JavaScript code** into the Resolver code editor, replacing the existing content:
     ```javascript
     /**

@@ -13,7 +13,7 @@ We need to update and push the frontend source code to correctly connect the bac
 #### **Step 5.3.1: Update `src/aws-exports.js` file**
 
 Open the `src/aws-exports.js` file in your source code directory.
-![ConnectPrivate](/images/au_5.3_1.png)
+![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.3_1.png)
 
 Replace the values with actual information from your AWS Console:
 
@@ -25,14 +25,14 @@ Replace the values with actual information from your AWS Console:
     * Select your API (e.g., `RealtimeChatAppAPI`).
     * In the left control panel, select **Overview**.
     * Find and copy the **API URL** (which is the GraphQL endpoint).
-    ![ConnectPrivate](/images/au_5.3_2.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.3_2.png)
 
 * **`aws_user_pools_id`**:
     * Go to **AWS AppSync Console** -> Select **APIs**.
     * Select your API (e.g., `RealtimeChatAppAPI`).
     * In the left control panel, select **Settings**.
     * Scroll down to the **Amazon Cognito User Pool** section to find your **User Pool ID**.
-    ![ConnectPrivate](/images/au_5.3_3.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.3_3.png)
 
 * **`aws_user_pools_web_client_id`**:
     * Go to **Amazon Cognito Console**.
@@ -41,8 +41,8 @@ Replace the values with actual information from your AWS Console:
     * Scroll down to the **App clients** section.
     * Select your created App client (e.g., `RealTimeChat`).
     * Here, you can find the **Client ID**.
-    ![ConnectPrivate](/images/au_5.3_4.png)
-    ![ConnectPrivate](/images/au_5.3_5.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.3_4.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.3_5.png)
 
 * **`oauth.domain`**:
     * Go to **Amazon Cognito Console**.
@@ -50,10 +50,10 @@ Replace the values with actual information from your AWS Console:
     * In the left menu, select **App integration**.
     * Scroll down to the **Hosted UI** section.
     * Find your **Domain** (e.g., `yourchatdomain-dev.auth.us-east-1.amazoncognito.com`).
-    ![ConnectPrivate](/images/au_5.3_6.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.3_6.png)
 
 After replacing the above information, **save the `src/aws-exports.js` file.**
-![ConnectPrivate](/images/au_5.3_7.png)
+![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.3_7.png)
 
 #### **Step 5.3.2: Push the Modified Code to GitHub**
 

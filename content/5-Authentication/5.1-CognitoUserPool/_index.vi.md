@@ -13,7 +13,7 @@ Chúng ta sẽ tạo một User Pool trong Amazon Cognito để quản lý ngư�
 1.  Trong ô tìm kiếm của **AWS Console**, gõ "Cognito" và chọn dịch vụ **Amazon Cognito**.
     * Ở thanh điều hướng bên trái, chọn **User pools**.
     * Nhấn nút **Create user pool** (Tạo nhóm người dùng).
-    ![ConnectPrivate](/images/au_5.1_1.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.1_1.png)
 
 #### **Bước 5.1.1: Cấu hình trải nghiệm đăng nhập (Configure sign-in experience)**
 
@@ -24,9 +24,9 @@ Chúng ta sẽ tạo một User Pool trong Amazon Cognito để quản lý ngư�
 * **Add a return URL (Thêm URL chuyển hướng):** Nhập `http://localhost:3000/` (Đây là URL mặc định của ứng dụng React của bạn khi chạy local).
     * *Lưu ý:* Nếu bạn đã triển khai ứng dụng lên AWS Amplify Hosting, bạn cũng cần thêm URL của ứng dụng đã triển khai vào đây, ví dụ: `https://master.d285j22zzz8mbh.amplifyapp.com/`.
 * Cuộn xuống cuối trang và nhấn nút **Create user directory** (Tạo thư mục người dùng).
-    ![ConnectPrivate](/images/au_5.1_2.png)
-    ![ConnectPrivate](/images/au_5.1_3.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.1_2.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.1_3.png)
 
 **Chúc mừng! Bạn đã thành công tạo Amazon Cognito User Pool.** User Pool này sẽ được sử dụng để xác thực người dùng cho ứng dụng của bạn.
-    ![ConnectPrivate](/images/au_5.1_4.png)
-    ![ConnectPrivate](/images/au_5.1_5.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.1_4.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.1_5.png)

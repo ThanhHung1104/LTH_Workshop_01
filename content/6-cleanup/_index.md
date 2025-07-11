@@ -20,9 +20,9 @@ To avoid incurring unwanted costs after completing this lab, we will proceed wit
 4.  In the left menu, click **App settings**.
 5.  Click **General settings**.
 6.  Click the **Delete app** button.
-    ![ConnectPrivate](/images/de_1.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/de_1.png)
 7.  Type `Delete` and click **Delete App**.
-    ![ConnectPrivate](/images/de_2.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/de_2.png)
 
 #### **6.2. Delete AWS AppSync API**
 
@@ -32,9 +32,9 @@ To avoid incurring unwanted costs after completing this lab, we will proceed wit
 2.  In the left navigation pane, select **APIs**.
 3.  Check your API (e.g., **`RealtimeChatAppAPI`**).
 4.  In the top right corner, click the **Delete** button.
-    ![ConnectPrivate](/images/de_3.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/de_3.png)
 5.  Type the exact API name (`RealtimeChatAppAPI`) into the confirmation field, then click **Delete** again.
-    ![ConnectPrivate](/images/de_4.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/de_4.png)
 
 #### **6.3. Delete Amazon DynamoDB Tables**
 
@@ -44,9 +44,9 @@ To avoid incurring unwanted costs after completing this lab, we will proceed wit
 2.  In the left navigation pane, select **Tables**.
 3.  Find and select your table(s) created by AppSync (e.g., **`RealTimeChat`**).
 4.  For each table, click the **Delete** button.
-    ![ConnectPrivate](/images/de_5.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/de_5.png)
 5.  Confirm table deletion (usually by typing `confirm` into the confirmation field or checking a box if available), then click **Delete**.
-    ![ConnectPrivate](/images/de_6.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/de_6.png)
 
 #### **6.4. Delete Amazon Cognito User Pool**
 
@@ -56,9 +56,9 @@ To avoid incurring unwanted costs after completing this lab, we will proceed wit
 2.  In the left navigation pane, select **User Pools**.
 3.  Select your User Pool (the name you gave it, e.g., **`RealTimeChat`** or `ChatAppUsersPool`).
 4.  In the top right corner, click the **Delete** button.
-    ![ConnectPrivate](/images/de_7.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/de_7.png)
 5.  Confirm and click **Delete**.
-    ![ConnectPrivate](/images/de_8.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/de_8.png)
 
 #### **6.5. Delete Unused IAM Roles**
 
@@ -71,8 +71,8 @@ To avoid incurring unwanted costs after completing this lab, we will proceed wit
     * Role for AppSync Logging: Starts with `AppSyncLoggingRole-` or contains your API ID.
 4.  Select the Role(s) that are no longer needed.
 5.  Click the **Delete** button.
-    ![ConnectPrivate](/images/de_9.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/de_9.png)
 6.  Confirm and click **Delete**.
-    ![ConnectPrivate](/images/de_10.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/de_10.png)
 
 **After completing all the steps above, you will have cleanly deleted all AWS resources created in this lab and will not incur any further costs.**

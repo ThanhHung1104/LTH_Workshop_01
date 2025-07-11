@@ -6,6 +6,7 @@ chapter : false
 pre : " <b> 4. </b> "
 ---
 
+This section will guide you through creating a GraphQL API, defining its schema, connecting to a DynamoDB database, and configuring resolvers to handle requests.
 ### Contents:
 
 - [Create DynamoDB Table](./4.1-DynamoDB/)

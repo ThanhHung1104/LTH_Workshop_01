@@ -11,10 +11,10 @@ pre : " <b> 4.3. </b> "
 Schema GraphQL là trái tim của API AppSync, nó định nghĩa cấu trúc dữ liệu và các thao tác (Query, Mutation, Subscription) mà client có thể thực hiện. Sau khi tạo API, bước tiếp theo là định nghĩa schema cho ứng dụng chat phức tạp của chúng ta.
 
 1. **Sau khi tạo API, bạn sẽ được đưa đến trang tổng quan của AppSync API.**
-    ![ConnectPrivate](/images/be_4.3_1.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.3_1.png)
 
 2.  Ở thanh điều hướng bên trái, chọn **Schema**.
-    ![ConnectPrivate](/images/be_4.3_2.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.3_2.png)
 
 3.  Trong cửa sổ soạn thảo Schema, **xóa bất kỳ nội dung mặc định nào (nếu có)** và **dán toàn bộ schema phức tạp dưới đây** vào:
 
@@ -49,7 +49,7 @@ Schema GraphQL là trái tim của API AppSync, nó định nghĩa cấu trúc d
     }
     ```
 4.  Nhấn nút **Save Schema** (Lưu Schema).
-    ![ConnectPrivate](/images/be_4.3_3.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.3_3.png)
 
 **Chúc mừng! Bạn đã thành công định nghĩa và lưu Schema GraphQL phức tạp của ứng dụng chat.**
-    ![ConnectPrivate](/images/be_4.3_4.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.3_4.png)

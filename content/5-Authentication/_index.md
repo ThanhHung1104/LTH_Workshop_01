@@ -5,6 +5,7 @@ weight : 5
 chapter : false
 pre : " <b> 5. </b> "
 ---
+We will create a User Pool in Amazon Cognito and then configure your AppSync API to use that User Pool as the default authentication method.
 
 ### Contents:
 

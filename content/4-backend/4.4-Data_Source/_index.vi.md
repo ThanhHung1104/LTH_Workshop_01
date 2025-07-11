@@ -11,7 +11,7 @@ pre : " <b> 4.4. </b> "
 Chúng ta sẽ kết nối API GraphQL với bảng DynamoDB đã tạo, bằng cách cấu hình một Nguồn dữ liệu (Data Source) trong AppSync.
 
 1.  Ở thanh điều hướng bên trái của **AppSync Console**, chọn **Data Sources** (Nguồn dữ liệu). Sau đó, nhấn nút **Create data source** (Tạo nguồn dữ liệu).
-    ![ConnectPrivate](/images/be_4.4_1.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.4_1.png)
 
 2.  **Điền thông tin nguồn dữ liệu:**
     * **Data source name (Tên nguồn dữ liệu):** Nhập `RealTimeChatDataSource` (hoặc tên bất kỳ bạn thích).
@@ -20,8 +20,8 @@ Chúng ta sẽ kết nối API GraphQL với bảng DynamoDB đã tạo, bằng 
     * **Table name (Tên bảng):** Chọn bảng `RealTimeChat` mà bạn đã tạo trước đó.
     * **Create or use an existing role (Tạo hoặc sử dụng vai trò hiện có):** Chọn **New role** (Vai trò mới).
     * Nhấn nút **Create** (Tạo).
-    ![ConnectPrivate](/images/be_4.4_2.png)
-    ![ConnectPrivate](/images/be_4.4_3.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.4_2.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.4_3.png)
 
 **Chúc mừng! Bạn đã thành công tạo nguồn dữ liệu cho API AppSync.**
-    ![ConnectPrivate](/images/be_4.4_4.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.4_4.png)

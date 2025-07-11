@@ -13,7 +13,7 @@ We will create a User Pool in Amazon Cognito to manage users (sign-up, sign-in) 
 1.  In the **AWS Console** search bar, type "Cognito" and select the **Amazon Cognito** service.
     * In the left navigation pane, select **User pools**.
     * Click the **Create user pool** button.
-    ![ConnectPrivate](/images/au_5.1_1.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.1_1.png)
 
 #### **Step 5.1.1: Configure sign-in experience**
 
@@ -24,9 +24,9 @@ We will create a User Pool in Amazon Cognito to manage users (sign-up, sign-in) 
 * **Add a return URL:** Enter `http://localhost:3000/` (This is the default URL for your React application when running locally).
     * *Note:* If you have deployed the application to AWS Amplify Hosting, you also need to add the URL of your deployed application here, e.g., `https://master.d285j22zzz8mbh.amplifyapp.com/`.
 * Scroll down to the bottom of the page and click the **Create user directory** button.
-    ![ConnectPrivate](/images/au_5.1_2.png)
-    ![ConnectPrivate](/images/au_5.1_3.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.1_2.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.1_3.png)
 
 **Congratulations! You have successfully created your Amazon Cognito User Pool.** This User Pool will be used to authenticate users for your application.
-    ![ConnectPrivate](/images/au_5.1_4.png)
-    ![ConnectPrivate](/images/au_5.1_5.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.1_4.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.1_5.png)

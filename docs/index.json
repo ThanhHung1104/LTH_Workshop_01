@@ -74,7 +74,7 @@
 	"title": "Backend Setup with AWS AppSync and DynamoDB",
 	"tags": [],
 	"description": "",
-	"content": "Contents: Create DynamoDB Table Create AWS AppSync API Define GraphQL Schema Define GraphQL Schema Create Resolvers Test API with Query Editor (Important) "
+	"content": "This section will guide you through creating a GraphQL API, defining its schema, connecting to a DynamoDB database, and configuring resolvers to handle requests.\nContents: Create DynamoDB Table Create AWS AppSync API Define GraphQL Schema Define GraphQL Schema Create Resolvers Test API with Query Editor (Important) "
 },
 {
 	"uri": "https://ThanhHung1104.github.io/LTH_Workshop_01/4-backend/4.4-data_source/",
@@ -95,7 +95,7 @@
 	"title": "Add User Authentication and Connect Backend to Frontend",
 	"tags": [],
 	"description": "",
-	"content": "Contents: Create Amazon Cognito User Pool Configure AWS AppSync API to use Cognito User Pools Modify Frontend Code and Push Code to GitHub Test Run "
+	"content": "We will create a User Pool in Amazon Cognito and then configure your AppSync API to use that User Pool as the default authentication method.\nContents: Create Amazon Cognito User Pool Configure AWS AppSync API to use Cognito User Pools Modify Frontend Code and Push Code to GitHub Test Run "
 },
 {
 	"uri": "https://ThanhHung1104.github.io/LTH_Workshop_01/4-backend/4.5-resolvers/",

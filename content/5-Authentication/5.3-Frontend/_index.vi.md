@@ -13,7 +13,7 @@ Chúng ta cần cập nhật và đẩy lại mã nguồn frontend để kết n
 #### **Bước 5.3.1: Cập nhật file `src/aws-exports.js`**
 
 Mở file `src/aws-exports.js` trong thư mục mã nguồn của bạn.
-![ConnectPrivate](/images/au_5.3_1.png)
+![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.3_1.png)
 
 Thay thế các giá trị bằng thông tin thực tế từ AWS Console của bạn:
 
@@ -25,14 +25,14 @@ Thay thế các giá trị bằng thông tin thực tế từ AWS Console của 
     * Chọn API của bạn (ví dụ: `RealtimeChatAppAPI`).
     * Trong bảng điều khiển bên trái, chọn **Settings** (Tổng quan).
     * Tìm và sao chép **API URL** (nó chính là GraphQL endpoint).
-    ![ConnectPrivate](/images/au_5.3_2.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.3_2.png)
 
 * **`aws_user_pools_id`**:
     * Vào **AWS AppSync Console** -> Chọn **APIs**.
     * Chọn API của bạn (ví dụ: `RealtimeChatAppAPI`).
     * Trong bảng điều khiển bên trái, chọn **Settings**.
     * Cuộn xuống phần **Amazon Cognito User Pool** để tìm **User Pool ID**.
-    ![ConnectPrivate](/images/au_5.3_3.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.3_3.png)
 
 * **`aws_user_pools_web_client_id`**:
     * Vào **Amazon Cognito Console**.
@@ -41,8 +41,8 @@ Thay thế các giá trị bằng thông tin thực tế từ AWS Console của 
     * Cuộn xuống phần **App clients**.
     * Chọn App client đã tạo của bạn (ví dụ: `RealTimeChat`).
     * Tại đây, bạn có thể lấy **Client ID**.
-    ![ConnectPrivate](/images/au_5.3_4.png)
-    ![ConnectPrivate](/images/au_5.3_5.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.3_4.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.3_5.png)
 
 * **`oauth.domain`**:
     * Vào **Amazon Cognito Console**.
@@ -50,10 +50,10 @@ Thay thế các giá trị bằng thông tin thực tế từ AWS Console của 
     * Ở menu bên trái, chọn **App integration**.
     * Cuộn xuống phần **Hosted UI** (Giao diện người dùng được lưu trữ).
     * Tìm **Domain** của bạn (ví dụ: `yourchatdomain-dev.auth.us-east-1.amazoncognito.com`).
-    ![ConnectPrivate](/images/au_5.3_6.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.3_6.png)
 
 Sau khi thay thế các thông tin trên, hãy **lưu file `src/aws-exports.js` lại.**
-![ConnectPrivate](/images/au_5.3_7.png)
+![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/au_5.3_7.png)
 
 #### **Bước 5.3.2: Đẩy Code đã thay đổi lên GitHub**
 

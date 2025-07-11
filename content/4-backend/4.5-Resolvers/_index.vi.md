@@ -12,7 +12,7 @@ Resolvers (Bộ phân giải) là các hàm mã nguồn (trong trường hợp n
 
 1.  Ở thanh điều hướng bên trái của **AppSync Console**, chọn **Schema**.
 2.  Cuộn xuống phần **Resolvers** (Bộ phân giải). Bạn sẽ thấy danh sách các hoạt động Query, Mutation và Subscription được tự động tạo từ Schema của mình.
-    ![ConnectPrivate](/images/be_4.5_1.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_1.png)
 
 #### **Bước 4.5.1: Tạo Resolver cho `Query.listMessages`**
 
@@ -20,15 +20,15 @@ Resolver này sẽ cho phép bạn lấy danh sách tất cả các tin nhắn t
 
 1.  Tìm dòng **`listMessages`** dưới mục **Query**.
 2.  Nhấn nút **Attach** (Gắn) bên cạnh nó.
-    ![ConnectPrivate](/images/be_4.5_2.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_2.png)
 3.  **Cấu hình Resolver:**
     * **Data source name (Tên nguồn dữ liệu):** Chọn **`RealTimeChatDataSource`**.
     * **Resolver runtime (Môi trường Runtime Resolver):** Đảm bảo chọn **AppSync JavaScript (APPSYNC_JS)**.
     * Cuộn xuống cuối trang và nhấn nút **Create** (Tạo).
-    ![ConnectPrivate](/images/be_4.5_3.png)
-    ![ConnectPrivate](/images/be_4.5_4.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_3.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_4.png)
 4.  Bạn sẽ được chuyển đến trang chỉnh sửa mã Resolver.
-    ![ConnectPrivate](/images/be_4.5_5.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_5.png)
 5.  **Dán mã JavaScript sau** vào trình soạn thảo code của Resolver, thay thế nội dung hiện có:
     ```javascript
     /**
@@ -55,7 +55,7 @@ Resolver này sẽ cho phép bạn lấy danh sách tất cả các tin nhắn t
     }
     ```
 6.  Nhấn nút **Save** (Lưu) ở góc trên bên phải để lưu Resolver.
-    ![ConnectPrivate](/images/be_4.5_6.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_6.png)
 
 #### **Bước 4.5.2: Tạo Resolver cho `Mutation.createMessage`**
 
@@ -63,14 +63,14 @@ Resolver này sẽ cho phép bạn tạo một tin nhắn mới và lưu nó và
 
 1.  Tìm dòng **`createMessage`** dưới mục **Mutation**.
 2.  Nhấn nút **Attach** (Gắn) bên cạnh nó.
-    ![ConnectPrivate](/images/be_4.5_7.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_7.png)
 3.  **Cấu hình Resolver:**
     * **Data source name (Tên nguồn dữ liệu):** Chọn **`RealTimeChatDataSource`**.
     * **Resolver runtime (Môi trường Runtime Resolver):** Đảm bảo chọn **AppSync JavaScript (APPSYNC_JS)**.
     * Nhấn nút **Create** (Tạo).
-    ![ConnectPrivate](/images/be_4.5_8.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_8.png)
 4.  Bạn sẽ được chuyển đến trang chỉnh sửa mã Resolver.
-    ![ConnectPrivate](/images/be_4.5_9.png)
+    ![ConnectPrivate](https://ThanhHung1104.github.io/LTH_Workshop_01/images/be_4.5_9.png)
 5.  **Dán mã JavaScript sau** vào trình soạn thảo code của Resolver, thay thế nội dung hiện có:
     ```javascript
     /**
