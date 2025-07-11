@@ -12,21 +12,21 @@
     <title>Introduction :: AWS System Manager</title>
 
     
-    <link href="/LTH_Workshop_01/css/nucleus.css?1752206630" rel="stylesheet">
-    <link href="/LTH_Workshop_01/css/fontawesome-all.min.css?1752206630" rel="stylesheet">
-    <link href="/LTH_Workshop_01/css/hybrid.css?1752206630" rel="stylesheet">
-    <link href="/LTH_Workshop_01/css/featherlight.min.css?1752206630" rel="stylesheet">
-    <link href="/LTH_Workshop_01/css/perfect-scrollbar.min.css?1752206630" rel="stylesheet">
-    <link href="/LTH_Workshop_01/css/auto-complete.css?1752206630" rel="stylesheet">
-    <link href="/LTH_Workshop_01/css/atom-one-dark-reasonable.css?1752206630" rel="stylesheet">
-    <link href="/LTH_Workshop_01/css/theme.css?1752206630" rel="stylesheet">
-    <link href="/LTH_Workshop_01/css/hugo-theme.css?1752206630" rel="stylesheet">
+    <link href="/LTH_Workshop_01/css/nucleus.css?1752207803" rel="stylesheet">
+    <link href="/LTH_Workshop_01/css/fontawesome-all.min.css?1752207803" rel="stylesheet">
+    <link href="/LTH_Workshop_01/css/hybrid.css?1752207803" rel="stylesheet">
+    <link href="/LTH_Workshop_01/css/featherlight.min.css?1752207803" rel="stylesheet">
+    <link href="/LTH_Workshop_01/css/perfect-scrollbar.min.css?1752207803" rel="stylesheet">
+    <link href="/LTH_Workshop_01/css/auto-complete.css?1752207803" rel="stylesheet">
+    <link href="/LTH_Workshop_01/css/atom-one-dark-reasonable.css?1752207803" rel="stylesheet">
+    <link href="/LTH_Workshop_01/css/theme.css?1752207803" rel="stylesheet">
+    <link href="/LTH_Workshop_01/css/hugo-theme.css?1752207803" rel="stylesheet">
     
-    <link href="/LTH_Workshop_01/css/theme-workshop.css?1752206630" rel="stylesheet">
+    <link href="/LTH_Workshop_01/css/theme-workshop.css?1752207803" rel="stylesheet">
     
     
 
-    <script src="/LTH_Workshop_01/js/jquery-3.3.1.min.js?1752206630"></script>
+    <script src="/LTH_Workshop_01/js/jquery-3.3.1.min.js?1752207803"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/LTH_Workshop_01/js/lunr.min.js?1752206630"></script>
-<script type="text/javascript" src="/LTH_Workshop_01/js/auto-complete.js?1752206630"></script>
+<script type="text/javascript" src="/LTH_Workshop_01/js/lunr.min.js?1752207803"></script>
+<script type="text/javascript" src="/LTH_Workshop_01/js/auto-complete.js?1752207803"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/ThanhHung1104.github.io\/LTH_Workshop_01\/";
     
 </script>
-<script type="text/javascript" src="/LTH_Workshop_01/js/search.js?1752206630"></script>
+<script type="text/javascript" src="/LTH_Workshop_01/js/search.js?1752207803"></script>
 
     
   </div>
@@ -717,21 +717,20 @@
 <h3 id="1-introduction-to-key-services"><strong>1. Introduction to Key Services</strong></h3>
 <p>To build powerful, scalable, and secure real-time web applications, we will leverage the capabilities of core services on the Amazon Web Services (AWS) cloud platform. The following are the key services we will use in this workshop:</p>
 <h4 id="11-aws-appsync"><strong>1.1. AWS AppSync</strong></h4>
-<p><img src="/static/images/AWSAppSync.png" alt="ConnectPrivate">
+<p><img src="/images/AWSAppSync.png" alt="AWS AppSync Diagram">
 It is a fully managed GraphQL service that allows you to build flexible APIs to query, mutate, and synchronize data. AppSync includes built-in real-time capabilities through GraphQL Subscriptions and WebSockets, as well as security and scalability management.</p>
 <h4 id="12-amazon-dynamodb"><strong>1.2. Amazon DynamoDB</strong></h4>
-<p><img src="/docs/images/DynamoDB.png" alt="ConnectPrivate">
+<p><img src="/images/DynamoDB.png" alt="AWS DynamoDB">
 It is a high-performance, serverless, and fully managed NoSQL database. DynamoDB offers virtually unlimited scalability, low latency, and high availability, making it ideal for high-performance applications.</p>
 <h4 id="13-amazon-cognito"><strong>1.3. Amazon Cognito</strong></h4>
-<p><img src="static/images/Cognito.png" alt="ConnectPrivate">
+<p><img src="/images/Cognito.png" alt="Amazon Cognito">
 It is a powerful and scalable User Identity Management service. Cognito helps you easily integrate secure user registration, login, and account management features into your web and mobile applications without having to build your own authentication system.</p>
 <h4 id="14-aws-amplify-hosting"><strong>1.4. AWS Amplify Hosting</strong></h4>
-<p><img src="docs/images/Amplify.png" alt="ConnectPrivate">
+<p><img src="/images/Amplify.png" alt="AWS Amplify Hosting">
 It is a fully managed hosting and CI/CD (Continuous Integration/Continuous Delivery) service, specifically designed for static websites and Single-Page Applications (SPAs) like React. Amplify Hosting automates the build and deployment process and provides a global CDN.</p>
 <h3 id="2-workshop-overview-real-time-chat-application"><strong>2. Workshop Overview: Real-time Chat Application</strong></h3>
 <p>In this lab, you will learn how to build a complete real-time chat application, illustrating the close coordination among the AWS services introduced above. The ultimate goal is to achieve a fully functional, scalable, and secure chat application.</p>
-<p><img src="/images/tgt.png" alt="ConnectPrivate">
-<img src="images/tgt.png" alt="ConnectPrivate"></p>
+<p><img src="/images/tgt.png" alt="tgt"></p>
 <ul>
 <li><strong>AWS AppSync</strong> will be the <strong>central API gateway</strong> for the chat application. All requests from the frontend (sending messages, fetching chat history, receiving new messages) will go through AppSync. It will handle GraphQL Queries, Mutations, and especially <strong>Subscriptions</strong> to push new messages in real-time to all members of the conversation.</li>
 <li><strong>Amazon DynamoDB</strong> will be the <strong>storage location for all your chat data</strong>, including user information (<code>User</code>), conversations (<code>Conversation</code>), membership records (<code>UserConversation</code>), and specific messages (<code>Message</code>).</li>
@@ -1069,19 +1068,19 @@ It is a fully managed hosting and CI/CD (Continuous Integration/Continuous Deliv
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/LTH_Workshop_01/js/clipboard.min.js?1752206630"></script>
-    <script src="/LTH_Workshop_01/js/perfect-scrollbar.min.js?1752206630"></script>
-    <script src="/LTH_Workshop_01/js/perfect-scrollbar.jquery.min.js?1752206630"></script>
-    <script src="/LTH_Workshop_01/js/jquery.sticky.js?1752206630"></script>
-    <script src="/LTH_Workshop_01/js/featherlight.min.js?1752206630"></script>
-    <script src="/LTH_Workshop_01/js/highlight.pack.js?1752206630"></script>
+    <script src="/LTH_Workshop_01/js/clipboard.min.js?1752207803"></script>
+    <script src="/LTH_Workshop_01/js/perfect-scrollbar.min.js?1752207803"></script>
+    <script src="/LTH_Workshop_01/js/perfect-scrollbar.jquery.min.js?1752207803"></script>
+    <script src="/LTH_Workshop_01/js/jquery.sticky.js?1752207803"></script>
+    <script src="/LTH_Workshop_01/js/featherlight.min.js?1752207803"></script>
+    <script src="/LTH_Workshop_01/js/highlight.pack.js?1752207803"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/LTH_Workshop_01/js/modernizr.custom-3.6.0.js?1752206630"></script>
-    <script src="/LTH_Workshop_01/js/learn.js?1752206630"></script>
-    <script src="/LTH_Workshop_01/js/hugo-learn.js?1752206630"></script>
+    <script src="/LTH_Workshop_01/js/modernizr.custom-3.6.0.js?1752207803"></script>
+    <script src="/LTH_Workshop_01/js/learn.js?1752207803"></script>
+    <script src="/LTH_Workshop_01/js/hugo-learn.js?1752207803"></script>
 
-    <link href="/LTH_Workshop_01/mermaid/mermaid.css?1752206630" rel="stylesheet" />
-    <script src="/LTH_Workshop_01/mermaid/mermaid.js?1752206630"></script>
+    <link href="/LTH_Workshop_01/mermaid/mermaid.css?1752207803" rel="stylesheet" />
+    <script src="/LTH_Workshop_01/mermaid/mermaid.js?1752207803"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
