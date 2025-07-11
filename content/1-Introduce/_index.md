@@ -13,7 +13,7 @@ pre : " <b> 1. </b> "
 To build powerful, scalable, and secure real-time web applications, we will leverage the capabilities of core services on the Amazon Web Services (AWS) cloud platform. The following are the key services we will use in this workshop:
 
 #### **1.1. AWS AppSync**
-![AWS AppSync Diagram](/images/AWSAppSync.png)
+![AWS AppSync Diagram](https://ThanhHung1104.github.io/LTH_Workshop_01/images/AWSAppSync.png)
 It is a fully managed GraphQL service that allows you to build flexible APIs to query, mutate, and synchronize data. AppSync includes built-in real-time capabilities through GraphQL Subscriptions and WebSockets, as well as security and scalability management.
 
 #### **1.2. Amazon DynamoDB**
